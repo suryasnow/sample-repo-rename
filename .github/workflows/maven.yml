@@ -38,7 +38,7 @@ jobs:
         args: > # optional
           -Dsonar.verbose=true
         # Set the sonar.projectBaseDir analysis property
-        projectBaseDir: . # optional, default is .
+        # projectBaseDir: . # optional, default is .
 
     - name: ServiceNow DevOps Artifact Registration
       # You may pin to the exact commit or the version.

@@ -64,6 +64,8 @@
 		<sonar.projectKey>devops-2022_sonar-scanner-maven</sonar.projectKey>
 		<sonar.organization>devops-2022</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.organization>pramaraju96</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<version>1.34.0-SNAPSHOT</version>
 	<build>

@@ -1,7 +1,7 @@
 # This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
 
-name: Java CI with Maven
+name: Java CI with Maven - maven.yml
 
 on:
   push:
@@ -44,7 +44,7 @@ jobs:
         # DevOps Integration User Name
         devops-integration-user-name: devops.integration.user
         # DevOps Integration User Pass
-        devops-integration-user-pass: DevOps1!
+        devops-integration-user-pass: 
         # ServiceNow Instance Name (e.g.: rapdevio)
         instance-name: 
         # Orchestration tool id

@@ -62,10 +62,10 @@ jobs:
         # run: mvn test
         # mvn -B test --file ./devops-test-repo/pom.xml
         
-      - name: What's in the target directory
-        run: |
-            cd target
-            ls -a
+#       - name: What's in the target directory
+#         run: |
+#             cd target
+#             ls -a
         
       - name: Sonarcloud Scan
         env:
